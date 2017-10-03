@@ -1,0 +1,229 @@
+I, [2017-10-03T01:10:29.887200 #4838]  INFO -- default-centos-7: -----> Creating <default-centos-7>...
+I, [2017-10-03T01:10:32.717290 #4838]  INFO -- default-centos-7: Bringing machine 'default' up with 'virtualbox' provider...
+I, [2017-10-03T01:10:33.126464 #4838]  INFO -- default-centos-7: ==> default: Importing base box 'bento/centos-7'...
+I, [2017-10-03T01:10:45.657333 #4838]  INFO -- default-centos-7: [KProgress: 10%[KProgress: 20%[KProgress: 30%[KProgress: 50%[KProgress: 70%[KProgress: 80%[KProgress: 90%[K==> default: Matching MAC address for NAT networking...
+I, [2017-10-03T01:10:45.826095 #4838]  INFO -- default-centos-7: ==> default: Checking if box 'bento/centos-7' is up to date...
+I, [2017-10-03T01:10:47.652565 #4838]  INFO -- default-centos-7: ==> default: Setting the name of the VM: default-centos-7_default_1507003847601_56418
+I, [2017-10-03T01:10:48.491395 #4838]  INFO -- default-centos-7: ==> default: Clearing any previously set network interfaces...
+I, [2017-10-03T01:10:48.706806 #4838]  INFO -- default-centos-7: ==> default: Preparing network interfaces based on configuration...
+I, [2017-10-03T01:10:48.707564 #4838]  INFO -- default-centos-7:     default: Adapter 1: nat
+I, [2017-10-03T01:10:48.708300 #4838]  INFO -- default-centos-7:     default: Adapter 2: hostonly
+I, [2017-10-03T01:10:48.770574 #4838]  INFO -- default-centos-7: ==> default: Forwarding ports...
+I, [2017-10-03T01:10:48.877119 #4838]  INFO -- default-centos-7:     default: 8080 (guest) => 8080 (host) (adapter 1)
+I, [2017-10-03T01:10:48.878028 #4838]  INFO -- default-centos-7:     default: 22 (guest) => 2222 (host) (adapter 1)
+I, [2017-10-03T01:10:49.061341 #4838]  INFO -- default-centos-7: ==> default: Booting VM...
+I, [2017-10-03T01:10:49.421992 #4838]  INFO -- default-centos-7: ==> default: Waiting for machine to boot. This may take a few minutes...
+I, [2017-10-03T01:10:49.953686 #4838]  INFO -- default-centos-7:     default: SSH address: 127.0.0.1:2222
+I, [2017-10-03T01:10:49.953891 #4838]  INFO -- default-centos-7:     default: SSH username: vagrant
+I, [2017-10-03T01:10:49.954180 #4838]  INFO -- default-centos-7:     default: SSH auth method: private key
+I, [2017-10-03T01:11:05.482455 #4838]  INFO -- default-centos-7:     default: Warning: Connection reset. Retrying...
+I, [2017-10-03T01:11:06.003687 #4838]  INFO -- default-centos-7:     default: Warning: Remote connection disconnect. Retrying...
+I, [2017-10-03T01:11:06.270491 #4838]  INFO -- default-centos-7:     default: Warning: Connection reset. Retrying...
+I, [2017-10-03T01:11:06.561807 #4838]  INFO -- default-centos-7:     default: Warning: Remote connection disconnect. Retrying...
+I, [2017-10-03T01:11:06.817593 #4838]  INFO -- default-centos-7:     default: Warning: Connection reset. Retrying...
+I, [2017-10-03T01:11:07.067624 #4838]  INFO -- default-centos-7:     default: Warning: Remote connection disconnect. Retrying...
+I, [2017-10-03T01:11:07.319184 #4838]  INFO -- default-centos-7:     default: Warning: Connection reset. Retrying...
+I, [2017-10-03T01:11:07.834124 #4838]  INFO -- default-centos-7:     default: Warning: Remote connection disconnect. Retrying...
+I, [2017-10-03T01:11:08.086141 #4838]  INFO -- default-centos-7:     default: Warning: Connection reset. Retrying...
+I, [2017-10-03T01:11:09.135845 #4838]  INFO -- default-centos-7:     default: Warning: Remote connection disconnect. Retrying...
+I, [2017-10-03T01:11:09.395924 #4838]  INFO -- default-centos-7:     default: Warning: Connection reset. Retrying...
+I, [2017-10-03T01:11:09.662251 #4838]  INFO -- default-centos-7:     default: Warning: Remote connection disconnect. Retrying...
+I, [2017-10-03T01:11:09.936989 #4838]  INFO -- default-centos-7:     default: Warning: Connection reset. Retrying...
+I, [2017-10-03T01:11:10.760580 #4838]  INFO -- default-centos-7:     default: Warning: Remote connection disconnect. Retrying...
+I, [2017-10-03T01:11:11.041621 #4838]  INFO -- default-centos-7:     default: Warning: Connection reset. Retrying...
+I, [2017-10-03T01:11:14.084096 #4838]  INFO -- default-centos-7:     default: 
+I, [2017-10-03T01:11:14.084209 #4838]  INFO -- default-centos-7:     default: Vagrant insecure key detected. Vagrant will automatically replace
+I, [2017-10-03T01:11:14.084267 #4838]  INFO -- default-centos-7:     default: this with a newly generated keypair for better security.
+I, [2017-10-03T01:11:19.579917 #4838]  INFO -- default-centos-7:     default: 
+I, [2017-10-03T01:11:19.580002 #4838]  INFO -- default-centos-7:     default: Inserting generated public key within guest...
+I, [2017-10-03T01:11:19.742668 #4838]  INFO -- default-centos-7:     default: Removing insecure key from the guest if it's present...
+I, [2017-10-03T01:11:19.908171 #4838]  INFO -- default-centos-7:     default: Key inserted! Disconnecting and reconnecting using new SSH key...
+I, [2017-10-03T01:11:21.523243 #4838]  INFO -- default-centos-7: ==> default: Machine booted and ready!
+I, [2017-10-03T01:11:21.524311 #4838]  INFO -- default-centos-7: ==> default: Checking for guest additions in VM...
+I, [2017-10-03T01:11:21.583015 #4838]  INFO -- default-centos-7: ==> default: Setting hostname...
+I, [2017-10-03T01:11:23.099514 #4838]  INFO -- default-centos-7: ==> default: Configuring and enabling network interfaces...
+I, [2017-10-03T01:11:25.230146 #4838]  INFO -- default-centos-7:     default: SSH address: 127.0.0.1:2222
+I, [2017-10-03T01:11:25.230443 #4838]  INFO -- default-centos-7:     default: SSH username: vagrant
+I, [2017-10-03T01:11:25.230796 #4838]  INFO -- default-centos-7:     default: SSH auth method: private key
+I, [2017-10-03T01:11:25.523192 #4838]  INFO -- default-centos-7: ==> default: Mounting shared folders...
+I, [2017-10-03T01:11:25.523770 #4838]  INFO -- default-centos-7:     default: /tmp/omnibus/cache => /Users/inacioikeda/.kitchen/cache
+I, [2017-10-03T01:11:26.190749 #4838]  INFO -- default-centos-7: ==> default: Machine not provisioned because `--no-provision` is specified.
+I, [2017-10-03T01:11:30.055878 #4838]  INFO -- default-centos-7: [SSH] Established
+I, [2017-10-03T01:11:30.056474 #4838]  INFO -- default-centos-7: Vagrant instance <default-centos-7> created.
+I, [2017-10-03T01:11:30.057729 #4838]  INFO -- default-centos-7: Finished creating <default-centos-7> (1m0.17s).
+I, [2017-10-03T01:11:30.057889 #4838]  INFO -- default-centos-7: -----> Converging <default-centos-7>...
+I, [2017-10-03T01:11:30.058819 #4838]  INFO -- default-centos-7: Preparing files for transfer
+I, [2017-10-03T01:11:30.058986 #4838]  INFO -- default-centos-7: Preparing dna.json
+I, [2017-10-03T01:11:30.059834 #4838]  INFO -- default-centos-7: Resolving cookbook dependencies with Berkshelf 6.3.1...
+I, [2017-10-03T01:11:37.766469 #4838]  INFO -- default-centos-7: Removing non-cookbook files before transfer
+I, [2017-10-03T01:11:37.773250 #4838]  INFO -- default-centos-7: Preparing validation.pem
+I, [2017-10-03T01:11:37.774143 #4838]  INFO -- default-centos-7: Preparing client.rb
+I, [2017-10-03T01:11:37.844854 #4838]  INFO -- default-centos-7: -----> Installing Chef Omnibus (install only if missing)
+I, [2017-10-03T01:11:37.848449 #4838]  INFO -- default-centos-7: Downloading https://omnitruck.chef.io/install.sh to file /tmp/install.sh
+I, [2017-10-03T01:11:37.849451 #4838]  INFO -- default-centos-7: Trying wget...
+I, [2017-10-03T01:11:39.074488 #4838]  INFO -- default-centos-7: Download complete.
+I, [2017-10-03T01:11:39.103943 #4838]  INFO -- default-centos-7: el 7 x86_64
+I, [2017-10-03T01:11:39.104035 #4838]  INFO -- default-centos-7: Getting information for chef stable  for el...
+I, [2017-10-03T01:11:39.104071 #4838]  INFO -- default-centos-7: downloading https://omnitruck.chef.io/stable/chef/metadata?v=&p=el&pv=7&m=x86_64
+I, [2017-10-03T01:11:39.104101 #4838]  INFO -- default-centos-7:   to file /tmp/install.sh.4578/metadata.txt
+I, [2017-10-03T01:11:39.105214 #4838]  INFO -- default-centos-7: trying wget...
+I, [2017-10-03T01:11:40.077740 #4838]  INFO -- default-centos-7: sha1	d42a37ed78d7d0a58c8d37592f525f8500f25dc2
+I, [2017-10-03T01:11:40.077821 #4838]  INFO -- default-centos-7: sha256	7b19f31ec4a3ed93d900701ae9a36669a1c8b161b60f0669f0d80771d7b4e26a
+I, [2017-10-03T01:11:40.077877 #4838]  INFO -- default-centos-7: url	https://packages.chef.io/files/stable/chef/13.4.24/el/7/chef-13.4.24-1.el7.x86_64.rpm
+I, [2017-10-03T01:11:40.077911 #4838]  INFO -- default-centos-7: version	13.4.24
+I, [2017-10-03T01:11:40.080829 #4838]  INFO -- default-centos-7: downloaded metadata file looks valid...
+I, [2017-10-03T01:11:40.097360 #4838]  INFO -- default-centos-7: /tmp/omnibus/cache/chef-13.4.24-1.el7.x86_64.rpm already exists, verifiying checksum...
+I, [2017-10-03T01:11:40.097434 #4838]  INFO -- default-centos-7: Comparing checksum with sha256sum...
+I, [2017-10-03T01:11:40.708870 #4838]  INFO -- default-centos-7: checksum compare succeeded, using existing file!
+I, [2017-10-03T01:11:40.708944 #4838]  INFO -- default-centos-7: 
+I, [2017-10-03T01:11:40.708973 #4838]  INFO -- default-centos-7: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+I, [2017-10-03T01:11:40.709000 #4838]  INFO -- default-centos-7: 
+I, [2017-10-03T01:11:40.709025 #4838]  INFO -- default-centos-7: You are installing an omnibus package without a version pin.  If you are installing
+I, [2017-10-03T01:11:40.709051 #4838]  INFO -- default-centos-7: on production servers via an automated process this is DANGEROUS and you will
+I, [2017-10-03T01:11:40.709077 #4838]  INFO -- default-centos-7: be upgraded without warning on new releases, even to new major releases.
+I, [2017-10-03T01:11:40.709103 #4838]  INFO -- default-centos-7: Letting the version float is only appropriate in desktop, test, development or
+I, [2017-10-03T01:11:40.709128 #4838]  INFO -- default-centos-7: CI/CD environments.
+I, [2017-10-03T01:11:40.709152 #4838]  INFO -- default-centos-7: 
+I, [2017-10-03T01:11:40.709177 #4838]  INFO -- default-centos-7: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+I, [2017-10-03T01:11:40.709201 #4838]  INFO -- default-centos-7: 
+I, [2017-10-03T01:11:40.709225 #4838]  INFO -- default-centos-7: Installing chef 
+I, [2017-10-03T01:11:40.709250 #4838]  INFO -- default-centos-7: installing with rpm...
+I, [2017-10-03T01:11:40.798267 #4838]  INFO -- default-centos-7: warning: /tmp/omnibus/cache/chef-13.4.24-1.el7.x86_64.rpm: Header V4 DSA/SHA1 Signature, key ID 83ef826a: NOKEY
+I, [2017-10-03T01:11:41.266997 #4838]  INFO -- default-centos-7: Preparing...                                                            (100%)#                                 (100%)##                                (100%)###                               (100%)####                              (100%)#####                             (100%)######                            (100%)#######                           (100%)########                          (100%)#########                         (100%)##########                        (100%)###########                       (100%)############                      (100%)#############                     (100%)##############                    (100%)###############                   (100%)################                  (100%)#################                 (100%)##################                (100%)###################               (100%)####################              (100%)#####################             (100%)######################            (100%)#######################           (100%)########################          (100%)#########################         (100%)##########################        (100%)###########################       (100%)############################      (100%)#############################     (100%)##############################    (100%)###############################   (100%)################################  (100%)################################# (100%)################################# [100%]
+I, [2017-10-03T01:11:41.295653 #4838]  INFO -- default-centos-7: Updating / installing...
+I, [2017-10-03T01:11:50.709563 #4838]  INFO -- default-centos-7:    1:chef-13.4.24-1.el7                                                 (  1%)#                                 (  4%)##                                (  7%)###                               ( 10%)####                              ( 13%)#####                             ( 16%)######                            ( 19%)#######                           ( 22%)########                          ( 25%)#########                         ( 28%)##########                        ( 31%)###########                       ( 34%)############                      ( 37%)#############                     ( 40%)##############                    ( 43%)###############                   ( 46%)################                  ( 49%)#################                 ( 51%)##################                ( 54%)###################               ( 57%)####################              ( 60%)#####################             ( 63%)######################            ( 66%)#######################           ( 69%)########################          ( 72%)#########################         ( 75%)##########################        ( 78%)###########################       ( 81%)############################      ( 84%)#############################     ( 87%)##############################    ( 90%)###############################   ( 93%)################################  ( 96%)################################# ( 99%)################################# [100%]
+I, [2017-10-03T01:11:51.315389 #4838]  INFO -- default-centos-7: Thank you for installing Chef!
+I, [2017-10-03T01:11:51.412743 #4838]  INFO -- default-centos-7: Transferring files to <default-centos-7>
+I, [2017-10-03T01:11:53.217551 #4838]  INFO -- default-centos-7: Starting Chef Client, version 13.4.24
+I, [2017-10-03T01:11:54.892936 #4838]  INFO -- default-centos-7: Creating a new client identity for default-centos-7 using the validator key.
+I, [2017-10-03T01:11:55.133654 #4838]  INFO -- default-centos-7: resolving cookbooks for run list: ["tomcat9::default"]
+I, [2017-10-03T01:11:55.148451 #4838]  INFO -- default-centos-7: Synchronizing Cookbooks:
+I, [2017-10-03T01:11:55.159464 #4838]  INFO -- default-centos-7:   - tomcat9 (0.1.0)
+I, [2017-10-03T01:11:55.170550 #4838]  INFO -- default-centos-7: Installing Cookbook Gems:
+I, [2017-10-03T01:11:55.170628 #4838]  INFO -- default-centos-7: Compiling Cookbooks...
+I, [2017-10-03T01:11:55.180418 #4838]  INFO -- default-centos-7: Converging 27 resources
+I, [2017-10-03T01:11:55.180496 #4838]  INFO -- default-centos-7: Recipe: tomcat9::default
+I, [2017-10-03T01:12:47.976760 #4838]  INFO -- default-centos-7:   * yum_package[java-1.8.0-openjdk.x86_64] action install
+I, [2017-10-03T01:12:47.976905 #4838]  INFO -- default-centos-7:     - install version 1.8.0.144-0.b01.el7_4 of package java-1.8.0-openjdk
+I, [2017-10-03T01:12:54.530181 #4838]  INFO -- default-centos-7:   * yum_package[java-1.8.0-openjdk-devel.x86_64] action install
+I, [2017-10-03T01:12:54.530262 #4838]  INFO -- default-centos-7:     - install version 1.8.0.144-0.b01.el7_4 of package java-1.8.0-openjdk-devel
+I, [2017-10-03T01:12:54.611720 #4838]  INFO -- default-centos-7:   * group[tomcat] action create
+I, [2017-10-03T01:12:54.611826 #4838]  INFO -- default-centos-7:     - create group tomcat
+I, [2017-10-03T01:12:54.669692 #4838]  INFO -- default-centos-7:   * linux_user[tomcat] action create
+I, [2017-10-03T01:12:54.669884 #4838]  INFO -- default-centos-7:     - create user tomcat
+I, [2017-10-03T01:13:04.470518 #4838]  INFO -- default-centos-7:   * remote_file[/opt/apache-tomcat-9.0.1.tar.gz] action create
+I, [2017-10-03T01:13:04.584307 #4838]  INFO -- default-centos-7:     - create new file /opt/apache-tomcat-9.0.1.tar.gz
+I, [2017-10-03T01:13:04.584387 #4838]  INFO -- default-centos-7:     - update content in file /opt/apache-tomcat-9.0.1.tar.gz from none to 976d9a
+I, [2017-10-03T01:13:04.639576 #4838]  INFO -- default-centos-7:     (new content is binary, diff output suppressed)
+I, [2017-10-03T01:13:04.639655 #4838]  INFO -- default-centos-7:     - restore selinux security context
+I, [2017-10-03T01:13:04.639687 #4838]  INFO -- default-centos-7:   * directory[/opt/tomcat] action delete (up to date)
+I, [2017-10-03T01:13:04.639715 #4838]  INFO -- default-centos-7:   * directory[/opt/tomcat] action create
+I, [2017-10-03T01:13:04.639741 #4838]  INFO -- default-centos-7:     - create new directory /opt/tomcat
+I, [2017-10-03T01:13:04.639768 #4838]  INFO -- default-centos-7:     - change mode from '' to '0775'
+I, [2017-10-03T01:13:04.665175 #4838]  INFO -- default-centos-7:     - change group from '' to 'tomcat'
+I, [2017-10-03T01:13:04.665254 #4838]  INFO -- default-centos-7:     - restore selinux security context
+I, [2017-10-03T01:13:04.935108 #4838]  INFO -- default-centos-7:   * execute[Untar] action run
+I, [2017-10-03T01:13:04.935184 #4838]  INFO -- default-centos-7:     - execute tar xvf /opt/apache-tomcat-9.0.1.tar.gz -C /opt/tomcat --strip-components=1
+I, [2017-10-03T01:13:04.935214 #4838]  INFO -- default-centos-7:   * file[/opt/apache-tomcat-9.0.1.tar.gz] action delete
+I, [2017-10-03T01:13:04.935241 #4838]  INFO -- default-centos-7:     - delete file /opt/apache-tomcat-9.0.1.tar.gz
+I, [2017-10-03T01:13:04.938275 #4838]  INFO -- default-centos-7:   * directory[/opt/apache-tomcat-9.0.1/] action delete (up to date)
+I, [2017-10-03T01:13:04.966070 #4838]  INFO -- default-centos-7:   * execute[chgrp] action run
+I, [2017-10-03T01:13:04.966148 #4838]  INFO -- default-centos-7:     - execute chgrp -R tomcat /opt/tomcat
+I, [2017-10-03T01:13:04.966179 #4838]  INFO -- default-centos-7:   * directory[/opt/tomcat/conf] action create
+I, [2017-10-03T01:13:04.991263 #4838]  INFO -- default-centos-7:     - change mode from '0700' to '0106'
+I, [2017-10-03T01:13:04.991361 #4838]  INFO -- default-centos-7:     - restore selinux security context
+I, [2017-10-03T01:13:05.009700 #4838]  INFO -- default-centos-7:   * execute[chmod] action run
+I, [2017-10-03T01:13:05.009801 #4838]  INFO -- default-centos-7:     - execute chmod -R g+r /opt/tomcat/conf
+I, [2017-10-03T01:13:05.031516 #4838]  INFO -- default-centos-7:   * execute[chmod] action run
+I, [2017-10-03T01:13:05.031594 #4838]  INFO -- default-centos-7:     - execute chmod g+x /opt/tomcat/conf
+I, [2017-10-03T01:13:05.031624 #4838]  INFO -- default-centos-7:   * directory[/opt/tomcat/logs] action create
+I, [2017-10-03T01:13:05.059030 #4838]  INFO -- default-centos-7:     - change owner from 'root' to 'tomcat'
+I, [2017-10-03T01:13:05.059108 #4838]  INFO -- default-centos-7:     - restore selinux security context
+I, [2017-10-03T01:13:05.059136 #4838]  INFO -- default-centos-7:   * directory[/opt/tomcat/temp] action create
+I, [2017-10-03T01:13:05.085542 #4838]  INFO -- default-centos-7:     - change owner from 'root' to 'tomcat'
+I, [2017-10-03T01:13:05.085678 #4838]  INFO -- default-centos-7:     - restore selinux security context
+I, [2017-10-03T01:13:05.085716 #4838]  INFO -- default-centos-7:   * directory[/opt/tomcat/webapps] action create
+I, [2017-10-03T01:13:05.152661 #4838]  INFO -- default-centos-7:     - change owner from 'root' to 'tomcat'
+I, [2017-10-03T01:13:05.152757 #4838]  INFO -- default-centos-7:     - restore selinux security context
+I, [2017-10-03T01:13:05.152790 #4838]  INFO -- default-centos-7:   * directory[/opt/tomcat/work] action create
+I, [2017-10-03T01:13:05.184553 #4838]  INFO -- default-centos-7:     - change owner from 'root' to 'tomcat'
+I, [2017-10-03T01:13:05.184633 #4838]  INFO -- default-centos-7:     - restore selinux security context
+I, [2017-10-03T01:13:05.184663 #4838]  INFO -- default-centos-7:   * template[/etc/systemd/system/tomcat.service] action create
+I, [2017-10-03T01:13:05.184691 #4838]  INFO -- default-centos-7:     - create new file /etc/systemd/system/tomcat.service
+I, [2017-10-03T01:13:05.184723 #4838]  INFO -- default-centos-7:     - update content in file /etc/systemd/system/tomcat.service from none to 2dbd70
+I, [2017-10-03T01:13:05.184750 #4838]  INFO -- default-centos-7:     --- /etc/systemd/system/tomcat.service	2017-10-03 04:13:05.189446792 +0000
+I, [2017-10-03T01:13:05.184776 #4838]  INFO -- default-centos-7:     +++ /etc/systemd/system/.chef-tomcat20171003-4716-1xhdtmk.service	2017-10-03 04:13:05.189446792 +0000
+I, [2017-10-03T01:13:05.184805 #4838]  INFO -- default-centos-7:     @@ -1 +1,27 @@
+I, [2017-10-03T01:13:05.184832 #4838]  INFO -- default-centos-7:     +# Systemd unit file for tomcat
+I, [2017-10-03T01:13:05.184857 #4838]  INFO -- default-centos-7:     +[Unit]
+I, [2017-10-03T01:13:05.184882 #4838]  INFO -- default-centos-7:     +Description=Apache Tomcat Web Application Container
+I, [2017-10-03T01:13:05.184908 #4838]  INFO -- default-centos-7:     +After=syslog.target network.target
+I, [2017-10-03T01:13:05.184937 #4838]  INFO -- default-centos-7:     +
+I, [2017-10-03T01:13:05.184963 #4838]  INFO -- default-centos-7:     +[Service]
+I, [2017-10-03T01:13:05.184988 #4838]  INFO -- default-centos-7:     +Type=forking
+I, [2017-10-03T01:13:05.185012 #4838]  INFO -- default-centos-7:     +
+I, [2017-10-03T01:13:05.185080 #4838]  INFO -- default-centos-7:     +Environment=JAVA_HOME=/usr/lib/jvm/jre
+I, [2017-10-03T01:13:05.185109 #4838]  INFO -- default-centos-7:     +Environment=CATALINA_PID=/opt/tomcat/temp/tomcat.pid
+I, [2017-10-03T01:13:05.185141 #4838]  INFO -- default-centos-7:     +Environment=CATALINA_HOME=/opt/tomcat
+I, [2017-10-03T01:13:05.185166 #4838]  INFO -- default-centos-7:     +Environment=CATALINA_BASE=/opt/tomcat
+I, [2017-10-03T01:13:05.185192 #4838]  INFO -- default-centos-7:     +Environment='CATALINA_OPTS=-Xms512M -Xmx1024M -server -XX:+UseParallelGC'
+I, [2017-10-03T01:13:05.185219 #4838]  INFO -- default-centos-7:     +Environment='JAVA_OPTS=-Djava.awt.headless=true -Djava.security.egd=file:/dev/./urandom'
+I, [2017-10-03T01:13:05.185264 #4838]  INFO -- default-centos-7:     +
+I, [2017-10-03T01:13:05.185292 #4838]  INFO -- default-centos-7:     +ExecStart=/opt/tomcat/bin/startup.sh
+I, [2017-10-03T01:13:05.185318 #4838]  INFO -- default-centos-7:     +ExecStop=/bin/kill -15 $MAINPID
+I, [2017-10-03T01:13:05.185343 #4838]  INFO -- default-centos-7:     +
+I, [2017-10-03T01:13:05.185367 #4838]  INFO -- default-centos-7:     +User=tomcat
+I, [2017-10-03T01:13:05.185390 #4838]  INFO -- default-centos-7:     +Group=tomcat
+I, [2017-10-03T01:13:05.185414 #4838]  INFO -- default-centos-7:     +UMask=0007
+I, [2017-10-03T01:13:05.185438 #4838]  INFO -- default-centos-7:     +RestartSec=10
+I, [2017-10-03T01:13:05.185463 #4838]  INFO -- default-centos-7:     +Restart=always
+I, [2017-10-03T01:13:05.185488 #4838]  INFO -- default-centos-7:     +
+I, [2017-10-03T01:13:05.185512 #4838]  INFO -- default-centos-7:     +[Install]
+I, [2017-10-03T01:13:05.212241 #4838]  INFO -- default-centos-7:     +WantedBy=multi-user.target
+I, [2017-10-03T01:13:05.212354 #4838]  INFO -- default-centos-7:     - restore selinux security context
+I, [2017-10-03T01:13:05.427466 #4838]  INFO -- default-centos-7:   * execute[Daemon] action run
+I, [2017-10-03T01:13:05.427548 #4838]  INFO -- default-centos-7:     - execute systemctl daemon-reload
+I, [2017-10-03T01:13:05.595699 #4838]  INFO -- default-centos-7:   * service[tomcat] action enable
+I, [2017-10-03T01:13:05.595776 #4838]  INFO -- default-centos-7:     - enable service service[tomcat]
+I, [2017-10-03T01:13:05.743467 #4838]  INFO -- default-centos-7:   * service[tomcat] action start
+I, [2017-10-03T01:13:05.743537 #4838]  INFO -- default-centos-7:     - start service service[tomcat]
+I, [2017-10-03T01:13:05.753465 #4838]  INFO -- default-centos-7:   * template[/opt/tomcat/conf/tomcat-users.xml] action create
+I, [2017-10-03T01:13:05.753552 #4838]  INFO -- default-centos-7:     - update content in file /opt/tomcat/conf/tomcat-users.xml from 755166 to 647452
+I, [2017-10-03T01:13:05.753600 #4838]  INFO -- default-centos-7:     --- /opt/tomcat/conf/tomcat-users.xml	2017-09-27 17:32:45.000000000 +0000
+I, [2017-10-03T01:13:05.753650 #4838]  INFO -- default-centos-7:     +++ /opt/tomcat/conf/.chef-tomcat-users20171003-4716-1qipxhj.xml	2017-10-03 04:13:05.749521961 +0000
+I, [2017-10-03T01:13:05.753698 #4838]  INFO -- default-centos-7:     @@ -22,6 +22,8 @@
+I, [2017-10-03T01:13:05.753743 #4838]  INFO -- default-centos-7:      <!--
+I, [2017-10-03T01:13:05.753805 #4838]  INFO -- default-centos-7: NOTE:  By default, no user is included in the "manager-gui" role required
+I, [2017-10-03T01:13:05.753864 #4838]  INFO -- default-centos-7: to operate the "/manager/html" web application.  If you wish to use this app,
+I, [2017-10-03T01:13:05.753903 #4838]  INFO -- default-centos-7:     +  NOTE:  By default, no user is included in the "manager-gui" role required
+I, [2017-10-03T01:13:05.753941 #4838]  INFO -- default-centos-7:     +  to operate the "/manager/html" web application.  If you wish to use this app,
+I, [2017-10-03T01:13:05.753994 #4838]  INFO -- default-centos-7: you must define such a user - the username and password are arbitrary. It is
+I, [2017-10-03T01:13:05.754040 #4838]  INFO -- default-centos-7: strongly recommended that you do NOT use one of the users in the commented out
+I, [2017-10-03T01:13:05.754090 #4838]  INFO -- default-centos-7: section below since they are intended for use with the examples web
+I, [2017-10-03T01:13:05.754128 #4838]  INFO -- default-centos-7:     @@ -34,6 +36,8 @@
+I, [2017-10-03T01:13:05.754172 #4838]  INFO -- default-centos-7: examples web application, do not forget to remove the <!.. ..> that surrounds
+I, [2017-10-03T01:13:05.754252 #4838]  INFO -- default-centos-7: them. You will also need to set the passwords to something appropriate.
+I, [2017-10-03T01:13:05.754292 #4838]  INFO -- default-centos-7:      -->
+I, [2017-10-03T01:13:05.754328 #4838]  INFO -- default-centos-7:     +<role rolename="manager-gui"/>
+I, [2017-10-03T01:13:05.754363 #4838]  INFO -- default-centos-7:     +<user username="admin" password="password" roles="manager-gui,admin-gui"/>
+I, [2017-10-03T01:13:05.754423 #4838]  INFO -- default-centos-7:      <!--
+I, [2017-10-03T01:13:05.754468 #4838]  INFO -- default-centos-7: <role rolename="tomcat"/>
+I, [2017-10-03T01:13:05.754498 #4838]  INFO -- default-centos-7: <role rolename="role1"/>
+I, [2017-10-03T01:13:05.820328 #4838]  INFO -- default-centos-7:     - change mode from '0640' to '0775'
+I, [2017-10-03T01:13:05.820402 #4838]  INFO -- default-centos-7:     - restore selinux security context
+I, [2017-10-03T01:13:05.820431 #4838]  INFO -- default-centos-7:   * template[/opt/tomcat/webapps/manager/META-INF/context.xml] action create
+I, [2017-10-03T01:13:05.879891 #4838]  INFO -- default-centos-7:     - change mode from '0640' to '0775'
+I, [2017-10-03T01:13:05.879968 #4838]  INFO -- default-centos-7:     - restore selinux security context
+I, [2017-10-03T01:13:06.297259 #4838]  INFO -- default-centos-7:   * service[tomcat] action restart
+I, [2017-10-03T01:13:06.297339 #4838]  INFO -- default-centos-7:     - restart service service[tomcat]
+I, [2017-10-03T01:13:08.814299 #4838]  INFO -- default-centos-7:   * execute[enable-fw] action run
+I, [2017-10-03T01:13:08.814376 #4838]  INFO -- default-centos-7:     - execute systemctl enable firewalld && systemctl start firewalld
+I, [2017-10-03T01:13:11.436259 #4838]  INFO -- default-centos-7:   * execute[fw-allow] action run
+I, [2017-10-03T01:13:11.436397 #4838]  INFO -- default-centos-7:     - execute firewall-cmd --permanent --add-port=8080/tcp
+I, [2017-10-03T01:13:12.119792 #4838]  INFO -- default-centos-7:   * execute[fw-reload] action run
+I, [2017-10-03T01:13:12.119892 #4838]  INFO -- default-centos-7:     - execute firewall-cmd --reload
+I, [2017-10-03T01:13:12.284602 #4838]  INFO -- default-centos-7: 
+I, [2017-10-03T01:13:12.284679 #4838]  INFO -- default-centos-7: Running handlers:
+I, [2017-10-03T01:13:12.284707 #4838]  INFO -- default-centos-7: Running handlers complete
+I, [2017-10-03T01:13:12.284732 #4838]  INFO -- default-centos-7: Chef Client finished, 26/28 resources updated in 01 minutes 19 seconds
+I, [2017-10-03T01:13:12.395649 #4838]  INFO -- default-centos-7: Finished converging <default-centos-7> (1m42.34s).
