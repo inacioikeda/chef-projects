@@ -1,0 +1,26 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: chef_zero
+  always_update_cookbooks: true
+
+verifier:
+  name: inspec
+
+platforms:
+  - name: centos-7
+    driver_config:
+      network:
+        - ["forwarded_port", {guest: 8080, host: 8080}]
+        - ["private_network", {ip: "192.168.33.33"}]
+
+suites:
+  - name: default
+    run_list:
+      - recipe[tomcat9::default]
+    verifier:
+      inspec_tests:
+        - test/smoke/default
+    attributes:

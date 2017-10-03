@@ -1,0 +1,7 @@
+DEPENDENCIES
+  httpd
+    path: .
+    metadata: true
+
+GRAPH
+  httpd (0.1.0)
